@@ -1,0 +1,26 @@
+{
+  "name": "smartcellbackend",
+  "version": "1.0.0",
+  "description": "'backEnd for the app to send email'",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "ismael Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^4.6.0",
+    "npm": "^5.7.1",
+    "request": "^2.85.0"
+  },
+  "engines": {
+    "node": "9.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
